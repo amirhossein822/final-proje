@@ -39,5 +39,5 @@ def main(input_csv, output_csv):
     generate_report(df, "report.png")
     print(f"✅ پروژه کامل اجرا شد. خروجی: {output_csv}, گزارش: report.png")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main("insurance_data.csv", "insurance_checked_ml.csv")
