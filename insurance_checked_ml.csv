@@ -1,0 +1,16 @@
+﻿Name,Age,Phone,NationalID,Disease,IsFake_RuleBased,FakeReason,name_length,has_space_in_name,phone_length,phone_starts09,nationalid_length,all_digits_nationalid,non_farsi_chars_in_name,ML_Prob,IsFake_Final,InsurancePrice
+علی رضایی,32,9123456789,1234567890,سرطان,False,,9,1,10,0,10,1,0,0.34,False,1000000
+سارا احمدی,27,9351234567,0987654321,دیابت,False,,10,1,10,0,10,1,0,0.05,False,500000
+مریم حسینی,45,9151234567,1112223334,فشارخون,False,,10,1,10,0,10,1,0,0.06,False,300000
+John AI,999,12345,ABCDE,سرطان,True,"Invalid Age, Invalid Phone, Invalid Name, Invalid NationalID",7,1,5,0,5,0,6,1.0,True,1000000
+تست123,150,9123,111,سایر,True,"Invalid Age, Invalid Phone, Invalid Name, Invalid NationalID",6,0,4,0,3,1,3,0.92,True,200000
+علی 1رضایی,28,912345678,123456789X,دیابت,True,"Invalid Phone, Invalid Name, Invalid NationalID",10,1,9,0,10,0,1,0.71,True,500000
+Fatemeh AI,30,9123456789,1234567890,فشارخون,True,Invalid Name,10,1,10,0,10,1,9,0.83,True,300000
+امیر محمدی,38,9187654321,2223334445,سرطان,False,,10,1,10,0,10,1,0,0.06,False,1000000
+زهرا رضایی,25,9123456780,3334445556,دیابت,False,,10,1,10,0,10,1,0,0.05,False,500000
+رضا کریمی,50,9134567890,4445556667,سرطان,False,,9,1,10,0,10,1,0,0.21,False,1000000
+لیلا محسنی,60,9122334455,5556667778,فشارخون,False,,10,1,10,0,10,1,0,0.03,False,300000
+علی مرادی,15,9111222333,6667778889,دیابت,False,,9,1,10,0,10,1,0,0.21,False,500000
+John Doe,200,123456,ABC123,سایر,True,"Invalid Age, Invalid Phone, Invalid Name, Invalid NationalID",8,1,6,0,6,0,7,1.0,True,200000
+تست456,35,912345678,123456789Y,سرطان,True,"Invalid Phone, Invalid Name, Invalid NationalID",6,0,9,0,10,0,3,0.95,True,1000000
+مریم AI,40,9123456789,1234567890,دیابت,True,Invalid Name,7,1,10,0,10,1,2,0.8,True,500000
