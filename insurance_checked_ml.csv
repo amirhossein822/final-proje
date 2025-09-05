@@ -1,5 +1,5 @@
 ﻿Name,Age,Phone,NationalID,Disease,IsFake_RuleBased,FakeReason,name_length,has_space_in_name,phone_length,phone_starts09,nationalid_length,all_digits_nationalid,non_farsi_chars_in_name,ML_Prob,IsFake_Final,InsurancePrice
-علی رضایی,32,9123456789,1234567890,سرطان,False,,9,1,10,0,10,1,0,0.34,False,1000000
+علی رضایی,32,9123456789,1234567890,سرطان,False,,9,1,10,0,10,1,0,0.04,False,1000000
 سارا احمدی,27,9351234567,0987654321,دیابت,False,,10,1,10,0,10,1,0,0.05,False,500000
 مریم حسینی,45,9151234567,1112223334,فشارخون,False,,10,1,10,0,10,1,0,0.06,False,300000
 John AI,999,12345,ABCDE,سرطان,True,"Invalid Age, Invalid Phone, Invalid Name, Invalid NationalID",7,1,5,0,5,0,6,1.0,True,1000000
